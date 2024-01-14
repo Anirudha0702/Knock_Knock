@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+$primary-blue:#242582;
+$primary-blue-light:#2f2fa2;
+$accent-red:#f64c72;
+$grayish:#997383;
+
+
+*,*:before, *:after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: $primary-blue;
+    color: #fff;
+}
+
+
+
+// #553d67
+// #f64c72
+// #997383
