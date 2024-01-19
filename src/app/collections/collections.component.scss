@@ -1,0 +1,11 @@
+@import "../../styles.scss";
+.collections{
+    width:30svw;
+    border-radius: 10px;
+    padding: 1rem;
+    height: calc(100svh - 4rem);
+    background-color: $primary-blue-light;
+    h4{
+        border-bottom: 1px solid $grayish;
+    }
+}

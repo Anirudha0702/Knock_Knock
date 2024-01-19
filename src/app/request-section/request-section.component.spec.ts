@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MethodSelectorComponent } from './method-selector.component';
+import { RequestSectionComponent } from './request-section.component';
 
-describe('MethodSelectorComponent', () => {
-  let component: MethodSelectorComponent;
-  let fixture: ComponentFixture<MethodSelectorComponent>;
+describe('RequestSectionComponent', () => {
+  let component: RequestSectionComponent;
+  let fixture: ComponentFixture<RequestSectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MethodSelectorComponent]
+      imports: [RequestSectionComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MethodSelectorComponent);
+    fixture = TestBed.createComponent(RequestSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

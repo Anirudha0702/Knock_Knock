@@ -19,7 +19,22 @@ body{
     color: #fff;
 }
 
-
+input, button{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input:focus, button:focus{
+    outline:none;
+    border: none;
+}
+ul,ol{
+    list-style: none;
+}
+li{
+    display:  inline-block;
+    margin-right: 0.5rem;
+}
 
 // #553d67
 // #f64c72
